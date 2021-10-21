@@ -1,7 +1,4 @@
-from typing import List
-
-
-def relative_complement(l1: List[int], l2: List[int]) -> List[int]:
+def relative_complement(l1: list[int], l2: list[int]) -> list[int]:
     """
     Returns a list of elements that are in l1 and not in l2.
     """

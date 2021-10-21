@@ -1,8 +1,7 @@
-from typing import List
 from random import randint
 
 
-def remove_all_zero_elements(nums: List[int]) -> List[int]:
+def remove_all_zero_elements(nums: list[int]) -> list[int]:
     """
     Removes all zero elemets in the nums list.
     """
