@@ -2,7 +2,7 @@ from typing import List
 from random import randint
 
 
-def remove_if_zero(nums: List[int]) -> List[int]:
+def remove_all_zero_elements(nums: List[int]) -> List[int]:
     """
     Removes all zero elemets in the nums list.
     """
@@ -18,4 +18,4 @@ def remove_if_zero(nums: List[int]) -> List[int]:
 if __name__ == "__main__":
     test_nums = [randint(-1, 1) for _ in range(0, 20)]
     print(test_nums)
-    print(remove_if_zero(test_nums))
+    print(remove_all_zero_elements(test_nums))
